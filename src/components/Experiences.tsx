@@ -6,7 +6,7 @@ import imgREACT from '../assets/assets/techno/react.png';
 import imgNODE from '../assets/assets/techno/node-js.png';
 import imgTAILWIND from '../assets/assets/techno/tailwind.png';
 import imgTYPE from '../assets/assets/techno/typescript.svg';
-import google from '../assets/assets/companies/react.png';
+import google from '../assets/assets/techno/react.png';
 import meta from '../assets/assets/companies/js.png';
 import amazon from '../assets/assets/companies/node-js.png';
 

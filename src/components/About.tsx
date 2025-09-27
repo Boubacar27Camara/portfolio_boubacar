@@ -1,5 +1,5 @@
 import Title from "./Title";
-import img from '../assets/assets/img4.png.jpeg';
+import img from '../assets/assets/img4.jpg';
 import { CalendarSync, LetterText, Paintbrush } from "lucide-react";
 
 

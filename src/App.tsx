@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="md:h-full md:w-48">
       <div className="p-5 md:px-[15%]">
         <Navbar />
         <Home />

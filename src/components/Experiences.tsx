@@ -1,23 +1,23 @@
 import Title from "./Title";
-import imgCSS from '../assets/assets/techno/css.png';
+import imgSPRING from '../assets/assets/techno/spring_boot.png';
 import imgJS from '../assets/assets/techno/js.png';
-import imgHTML from '../assets/assets/techno/html.png';
+import imgANGULAR from '../assets/assets/techno/angular.png';
 import imgREACT from '../assets/assets/techno/react.png';
 import imgNODE from '../assets/assets/techno/node-js.png';
 import imgTAILWIND from '../assets/assets/techno/tailwind.png';
-import imgTYPE from '../assets/assets/techno/typescript.svg';
+import imgFLUTTER from '../assets/assets/techno/flutter.png';
 import google from '../assets/assets/techno/react.png';
 import meta from '../assets/assets/companies/js.png';
 import amazon from '../assets/assets/companies/node-js.png';
 
 const skills = [
-    { id: 1, name: "HTML", image: imgHTML },
-    { id: 2, name: "CSS", image: imgCSS },
+    { id: 1, name: "ANGULAR", image: imgANGULAR },
+    { id: 2, name: "SPRING-BOTT", image: imgSPRING },
     { id: 3, name: "Javascript", image: imgJS },
     { id: 4, name: "React", image: imgREACT },
     { id: 5, name: "Node.js", image: imgNODE },
     { id: 6, name: "Tailwin CSS", image: imgTAILWIND },
-    { id: 7, name: "TypeScript", image: imgTYPE },
+    { id: 7, name: "FLUTTER", image: imgFLUTTER },
     // { id: 8, name: "Java", image: imgHTMLJAVA },
     // { id: 9, name: "JAKARTA", image: imgHTMLJAKARTA },
 ]
@@ -46,11 +46,11 @@ const experiences = [
     },
     {
         id: 3,
-        role: "Développeur Full-Stack ",
-        company: "Node.js",
+        role: "Développeur Java ",
+        company: "Spring-Angular",
         description: [
             `Conception, développement et maintenance d'applications
- web complexes utilisant React.js et Node.js.`
+ web complexes utilisant Angular et Spring boot.`
 
         ],
         image: amazon,

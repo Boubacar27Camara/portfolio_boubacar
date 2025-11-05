@@ -1,6 +1,6 @@
 import { Mail } from "lucide-react";
 import img from '../assets/assets/img.jpg';
-import CV from '../assets/assets/CV-Boubacar.pdf';
+import CV from '../assets/assets/CV_Boubacar.pdf';
 
 const Home = () => {
 
@@ -14,8 +14,8 @@ const Home = () => {
                 <p className="my-4 text-md text-center md:text-left">
                     Je suis un developpeur fullstack
                     <br />
-                    avec 1 ans d'experience, utilisant React <br />
-                    et Node.js.
+                    avec 1 ans d'experience, utilisant React, Angular <br />
+                    et String boot.
                     Contactez-moi si vous avez besoin de mes services
                 </p>
                 <div className="space-x-2">
@@ -39,4 +39,4 @@ const Home = () => {
     )
 
 }
-export default Home;
+export default Home; 

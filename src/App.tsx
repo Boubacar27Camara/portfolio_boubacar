@@ -12,8 +12,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="md:h-full md:w-48">
-      <div className="p-5 md:px-[15%]">
+    // <div className="md:h-full md:w-48 ">
+    <div className="sm-640 md-768 lg-1024 xl-1280 2xl-1536">
+      <div className="md:h-full md:w-48 ">
+       <div className="p-5 md:px-[15%]">
         <Navbar />
         <Home />
       </div>
@@ -29,11 +31,14 @@ function App() {
         {/* <Access /> */}
        </div>
         <Footer /> 
-      
+        </div>
     </div>
+     
+      
+    // </div>
   )
 }
 
 export default App
 
-// https://daisyui.com/
+// https://daisyui.com/ 

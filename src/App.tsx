@@ -17,7 +17,7 @@ function App() {
 
     <div className="w-full min-h-screen bg-black text-gray-900">
       {/* Barre de navigation et section d'accueil */}
-      <div className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-6">
+      <div className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-6 text-white">
         <Navbar />
         <Home />
       </div>

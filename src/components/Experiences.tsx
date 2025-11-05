@@ -11,8 +11,8 @@ import meta from '../assets/assets/companies/js.png';
 import amazon from '../assets/assets/companies/node-js.png';
 
 const skills = [
-    { id: 1, name: "ANGULAR", image: imgANGULAR },
-    { id: 2, name: "SPRING-BOTT", image: imgSPRING },
+    { id: 1, name: "Angular", image: imgANGULAR },
+    { id: 2, name: "Spring-boot", image: imgSPRING },
     { id: 3, name: "Javascript", image: imgJS },
     { id: 4, name: "React", image: imgREACT },
     { id: 5, name: "Node.js", image: imgNODE },
@@ -71,7 +71,7 @@ const Experiences = () => {
                                     <img src={skill.image} alt={skill.name}
                                         className="object-cover rounded-full h-full w-full" />
                                 </div>
-                                <span className="mt-2 text-sm">{skill.name}</span>
+                                <span className="mt-2 text-sm text-white">{skill.name}</span>
                             </div>
                         ))
                     }

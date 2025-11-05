@@ -15,34 +15,34 @@ function App() {
 
 
 
-    <div className="w-full min-h-screen bg-black text-gray-900">
-      {/* Barre de navigation et section d'accueil */}
-      <div className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-6 text-white">
-        <Navbar />
-        <Home />
-      </div>
+    <div className="w-full min-h-screen bg-white text-gray-900">
+  {/* Barre de navigation et section d'accueil */}
+  <div className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-6">
+    <Navbar />
+    <Home />
+  </div>
 
-      {/* Section "À propos" */}
-      <section className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-8">
-        <About />
-      </section>
+  {/* Section "À propos" */}
+  <section className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-8">
+    <About />
+  </section>
 
-      {/* Expériences et projets */}
-      <section className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-8">
-        <Experiences />
-        <Projects />
-      </section>
+  {/* Expériences et projets */}
+  <section className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-8">
+    <Experiences />
+    <Projects />
+  </section>
 
-      {/* Section optionnelle */}
-      {/* <section className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-8">
+  {/* Section optionnelle */}
+  {/* <section className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-8">
     <Access />
   </section> */}
 
-      {/* Pied de page */}
-      <footer className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-6 bg-gray-100">
-        <Footer />
-      </footer>
-    </div>
+  {/* Pied de page */}
+  <footer className="px-4 sm:px-8 md:px-[10%] lg:px-[15%] py-6 bg-gray-100">
+    <Footer />
+  </footer>
+</div>
 
 
     // <div className="md:h-full md:w-48 ">
@@ -58,7 +58,7 @@ function App() {
     //   <div className="p-5 md:px-[15%]">
     //    <Experiences />  
     //    <Projects />
-
+      
     //   </div>
     //    <div>
     //     {/* <Access /> */}
@@ -66,8 +66,8 @@ function App() {
     //     <Footer /> 
     //     </div>
     // </div>
-
-
+     
+      
     // </div>
   )
 }
